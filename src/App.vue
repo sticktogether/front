@@ -1,17 +1,13 @@
 <template>
   <div id="app">
-    <Flexcards />
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
 
-import  Flexcards from '@/components/Flexcards'
 export default {
   name: 'App',
-  components: {
-    Flexcards
-  }
 }
 </script>
 
@@ -29,5 +25,17 @@ export default {
 body {
   background: #EEEEEE;
 }
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  //min-height: 100vh;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  //background-color: aquamarine;      
+}
+
 
 </style>

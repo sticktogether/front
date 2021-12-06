@@ -1,33 +1,10 @@
 <template>
     <div>
-        <div class="flex-container">
-            <div class="flex-item item-1">
-                <div> <a href="https://vk.com/sticktogetherr"><img class="dicpic" src="@/assets/Igor.jpg" alt="dicpic"></a> </div>
-                <div class="info-1">Name: <br> Igor</div>
-                <div class="info-1">Study group: <br> BSBO-o4-19</div>
-                <div class="info-1">Skills: <br> coming soon..</div>
-            </div>
-            <div class="flex-item item-2">
-                <div>
-                    <ul>
-                        <li class="info-2">
-                            <label for="name">Name:</label> <br>
-                            <input type="text" name="name" placeholder="Your name" required/>
-                        </li>
-                        <li class="info-2">
-                            <label for="email">Email:</label> <br>
-                            <input type="text" name="email" placeholder="example@google.com" required/>
-                        </li>
-                        <li class="info-2 cover-letter">
-                            <label for="coverletter">Cover Letter:</label> <br>
-                            <textarea name="coverletter" id="covlet" placeholder="Write your cover letter here!" required></textarea>
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <button class="subm-but">Submit</button>
-                </div>
-            </div>
+        <div class="flex-item item-1">
+            <div> <a href="https://vk.com/sticktogetherr"><img class="dicpic" src="@/assets/Igor.jpg" alt="dicpic"></a> </div>
+            <div class="info-1">Name: <br> Igor</div>
+            <div class="info-1">Study group: <br> BSBO-o4-19</div>
+            <div class="info-1">Skills: <br> coming soon..</div>
         </div>
     </div>
 </template>
@@ -148,5 +125,4 @@
         }
         
     }
-    
 </style>
